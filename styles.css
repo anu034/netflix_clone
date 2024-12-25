@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.main {
+    background-image: url(assets/bg.jpg);
+    height: 80vh;
+    position: relative;
+    /* opacity:0.95; */
+    /* height: 80vh; */
+    z-index: -1000;
+
+}
+
+.main .box {
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    opacity:0.1;
+    position:absolute;
+    top: 0px;
+}
+nav{
+    display: flex;
+    justify-content: canter;
+}
+nav div{
+    display: flex;
+    justify-content: center;
+}
